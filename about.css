@@ -1,0 +1,23 @@
+body {
+    background-image:
+        url(background.jpg);
+    background-repeat:
+        background-size:cover;
+}
+.page2{
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.footer-help h4{
+    font-size: 20px;
+}
+.support h4{
+    font-size: 20px;
+}
+#main ul li a {
+    color: #0f70d1;
+}
+
+#main ul li a:hover {
+    color: #0e881c;
+}

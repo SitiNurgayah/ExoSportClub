@@ -1,0 +1,19 @@
+body {
+    background-image:
+        url(background.jpg);
+    background-repeat:
+        background-size:cover;
+}
+#main ul li a {
+    color: #0f70d1;
+}
+
+#main ul li a:hover {
+    color: #0e881c;
+}
+#fea{
+    font-size: 20px; 
+}
+#inside{
+    font-size: 17 px;
+}

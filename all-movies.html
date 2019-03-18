@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="all-movies.css">
+</head>
+
+<body class="contact">
+    <header>
+        <h2 class="logo">
+            <a href="index.html">
+                <center><img src="logo.PNG"></center>
+            </a></h2>
+        <div id="main">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="all-movies.html">All Movies</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="yield">
+        <div class="alert label">
+        </div>
+        <main>
+            <section>
+                <h1>Inside Out</h1>
+                <article class='movie-info-'>
+                    <a href='movie.html'>
+                        <img title="Inside Out" alt="Poster for Inside Out" src="Inside_Out_(2015_film)_poster.jpg" />
+                    </a>
+                    <div class="info">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto
+                            commodi deserunt ea et temporibus. Ab amet, assumenda consequuntur
+                            eveniet exercitationem in laborum libero modi nisi reprehenderit totam ut
+                            vel voluptatibus.</p>
+                        <span class="price"><del>$19.99</del> $14.99</span>
+                        <ul>
+                            <li><b>Year:</b> 2015</li>
+                            <li><b>Duration:</b> 106 min</li>
+                            <li><b>Language:</b> English</li>
+                            <li><b>Genres:</b> Action, Comedy</li>
+                            <li><b>Actors:</b> Melissa Golden, Mario Bishop, Gabrielle Grimes,
+                                Damion Lowe</li>
+                            <li><b>Director:</b> John Doe</li>
+                        </ul>
+                    </div>
+                </article>
+                <div class="rental">
+                    <h2>Movie Available Now</h2>
+                </div>
+                <div class="photo-gallery">
+                    <ul class="photos-list">
+                        <li><img src="the%20hows%20of%20us.jpg" width="250px"></li>
+                        <li><img src="The_Flu_-_Korean_Movie-p1.jpg" width="250px"></li>
+                        <li><img src="BOTY_PH-Official-415x600.jpg" width="250px"></li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <br>
+        <h3>Choose Language:</h3><br>
+        <form name="myLang">
+            <input type="checkbox" name="language" value="English" checked>English
+            <input type="checkbox" name="language" value="Filipino">Filipino
+            <input type="checkbox" name="language" value="Jepun">Jepun
+            <input type="checkbox" name="language" value="Portuguese">Portuguese
+            <input type="checkbox" name="language" value="Korean">Korean
+            <br>
+        </form>
+        <div id="1"></div>
+        <script>
+            function makeSelection() {
+            for (var i = 0; i < document.myLang.language.length; i++) {
+                if (document.myLang.language[i].checked) {
+                    document.getElementById("1").innerHTML = "You've selected " + document.myLang.language[i].value;
+                }
+            }
+        }
+    </script>
+        <br>
+        <h3>What Are You Waiting For??</h3>
+        <form name="myLang">
+            <input type="checkbox" name="language" value="English" checked><b>Rent Now!!</b><br>
+            <input type="checkbox" name="language" value="French"><b>Buy Now!!</b>
+            <br>
+            <input type="button" name="submit" value="submit" onclick="makeSelection()">
+        </form>
+        <div id="2"></div>
+        <script>
+            function makeSelection() {
+            for (var i = 0; i < document.myLang.language.length; i++) {
+                if (document.myLang.language[i].checked) {
+                    document.getElementById("2").innerHTML = "You've selected " + document.myLang.language[i].value;
+                }
+            }
+        }
+    </script>
+        <script>
+            function makeSelection() {
+            alert("Thank You For Come To Sao Paulo Movie Store..Come Again!!");
+        }
+    </script>
+        <aside>
+            <div class="related-movies">
+                <h2>Related Movies</h2>
+                <div id=trailer>
+                    <h4>(Can See The Trailer Here.Just Click Link Above The Picture.)</h4>
+                </div>
+                <ul>
+                    <li>
+                        <a href='movie.html' class='movie-cover-link'>
+                            <figure class='movie-cover'>
+                                <img title="The Hows of Us" alt="Poster the hows of us" src="the%20hows%20of%20us.jpg" width="250px">
+                                <figcaption>The Hows of Us</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href='movie.html' class='movie-cover-link'>
+                            <figure class='movie-cover'>
+                                <img title="The Flu" alt="Poster The Flu" src="The_Flu_-_Korean_Movie-p1.jpg" width="250px">
+                                <figcaption>The Flu</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href='movie.html' class='movie-cover-link'>
+                            <figure class='movie-cover'>
+                                <img title="Brother of The Year" alt="Poster Brother of The Year" src="BOTY_PH-Official-415x600.jpg" width="250px">
+                                <figcaption>Brother of The Year</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+    <footer>
+        <div class="footer-help">
+            <div class="contact">
+                <h4>Contact Us</h4> Get in touch here if you have any queries or
+                issues.
+            </div>
+            <div class="support">
+                <h4>Help&amp;Support</h4> Click here for FAQs, order information, T&amp;Cs,
+                errata and code downloads.
+            </div>
+            <div class="newsletter">
+                <h4>Alerts&amp;Offers</h4> Sign up to our emails for regular updates and
+                exclusive discounts.
+                <form>
+                    <input type='email' placeholder='Enter your email address'>
+                    <input type='submit' value='subscribe'>
+                </form>
+            </div>
+            <div class="search">
+                <h4>Search Movies</h4>
+                <form>
+                    <a href="movie.html">
+                    </a>
+                    <input type='text' placeholder='Movie name, year, actors'>
+                    <input type='submit' value='search'></form>
+            </div>
+        </div>
+        <div class="back-to-top"><br>
+            <a href='#top'>⬆ Back to Top.</a>
+        </div>
+        <div class="copyright">
+            &copy; 2015. São Paulo Movie Store.
+        </div>
+        <div class="footer-nav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="all-movies.html">All Movies</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

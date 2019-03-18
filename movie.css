@@ -1,0 +1,22 @@
+body {
+    background-image:
+        url(background.jpg);
+    background-repeat:
+        background-size:cover;
+}
+
+footer-help h4 {
+    font-size: 20px;
+}
+
+.support h4 {
+    font-size: 20px;
+}
+
+.tabs a:hover {
+    color: #0e881c;
+}
+
+.rental h2{
+    font-size: 20px;
+}

@@ -1,0 +1,22 @@
+body {
+    background-image:
+        url(background.jpg);
+    background-repeat:
+        background-size:cover;
+}
+.footer-help h4{
+    font-size: 20px;
+}
+.support h4{
+    font-size: 20px;
+}
+.tabs a:hover {
+    color: #0e881c;
+}
+#main ul li a {
+    color: #0f70d1;
+}
+
+#main ul li a:hover {
+    color: #0e881c;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="about.css">
+</head>
+
+<body class="contact">
+    <header>
+        <h2 class="logo">
+            <a href="index.html">
+                <center><img src="logo.PNG"></center>
+            </a></h2>
+        <div id="main">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="all-movies.html">All Movies</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="page2">
+        <h3>About Sao Paulo Movie Store<p>This is a store for your movie nights.</h3>
+        <br>
+        <h3>Store Location<p>We have 5 stores in Brazil.</p>
+        </h3>
+        <div id="googleMap" style="width:100%;height:400px;"></div>
+        <script>
+            function myMap() {
+                var mapProp = {
+                    center: new google.maps.LatLng(51.508742, -0.120850),
+                    zoom: 5,
+                };
+                var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+            }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+        <br>
+        <br>
+        <ul>
+            <li>Quadra 706 Sul Alameda 3,956,Palmas-TO</li>
+            <li>+55(14)334-2428</li>
+        </ul>
+        <script type='text/javascript'>
+            var map;
+
+            function loadMap() {
+                if (!map) {
+                    map = new Microsoft.Maps.Map('#Mymap', {});
+                }
+            }
+        </script>
+        <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?key=[YOUR_BING_MAPS_KEY]' async defer></script>
+        <div id="Mymap" style="position:relative;width:800px;height:600px;"></div><br />
+        <input type="button" value="Load Map" onclick="loadMap()" />
+        <ul>
+            <li>Rua Princesa dos Campos, 1743, Campo Mourão-PR</li>
+            <li>+55(14)3364-5254</li>
+        </ul>
+        <br>
+        <div class="session">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d687331.6102483547!2d-46.89952270618744!3d-23.691319060666867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2sS%C3%A3o+Paulo%2C+State+of+S%C3%A3o+Paulo%2C+Brazil!5e0!3m2!1sen!2smy!4v1551431498079" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
+                <div id="Mymap" style="position:relative;width:800px;height:600px;"></div><br />
+            </iframe>
+        <ul>
+            <li>Rua Antônio Amâncio Filho, 984, Patos de Minas-MG</li>
+            <li>+55(14)3323-5434</li>
+            </ul></div>
+        <br>
+        <div class="footer-help">
+            <div class="contact">
+                <h4>Contact Us</h4> Get in touch here if you have any queries or
+                issues.
+            </div>
+            <div class="support">
+                <h4>Help&amp;Support</h4> Click here for FAQs, order information, T&amp;Cs,
+                errata and code downloads.
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
